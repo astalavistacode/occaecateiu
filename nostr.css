@@ -1,0 +1,8 @@
+{
+  post(id: "123") {
+    id
+    edge_liked_by {
+      count
+    }
+  }
+}
